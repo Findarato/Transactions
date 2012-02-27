@@ -1,0 +1,1 @@
+<img src="dynograph.php?parent=<?=$_GET['p'];?>">

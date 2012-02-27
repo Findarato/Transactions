@@ -1,0 +1,139 @@
+html,body{margin:0;padding:0; height:100%}
+/*body{font: 76% arial,sans-serif; background-image:url(images/backgrounds/5.jpg); background-attachment:scroll; background-repeat:no-repeat}*/
+/*body{font: 76% arial,sans-serif; background:url(http://dev.lapcat.org/lapcat/layout/images/1-1050-1.png) repeat #09F;}*/
+
+#topper{width:100%; height:20px;}
+
+p{margin:0 10px 10px}
+div #header{height:40px;margin:0;padding-left:10px;background:rgba(0,0,0,0);color: #79B30B;}
+
+div#navigation .selected{background:url(images/800.800.50.000000.png);}
+div#navigation{background:rgba(0,0,0,0);padding-left:10px;}
+div#navigation .selected{background:rgba(104,174,218,.50);} 
+li{ padding-left:10px;list-style:none;}
+
+div#footer{background:rgba(104,174,218,.7);color: #FFF}
+div#footer p{margin:0;padding:5px 10px}
+div#wrapper{float:right;width:100%;margin-left:-210px}
+div#navigation{float:left;width:200px; color:#FFF}
+div .extra{float:left;clear:left;width:190px; margin:10px 0px 10px 10px;}
+.inputWhite, input.text{background-color:#FFF; color:#000;}
+div#footer{clear:both;width:100%} 
+.container{padding:10px;}
+.white{color:#FFFFFF;}
+.menu{cursor:pointer;}
+.menu:hover{cursor:pointer;}
+li.menu{display: inline;list-style-type: none; cursor:pointer; width:32px; float:left; height:32px; text-align:center;margin:0px; padding:0px;}
+#mnu{color:#FFF;}
+
+.black50per{background:url(images/800.800.50.000000.png); color:#FFF;background:rgba(0,0,0,.5);}
+/*Stuff relating to the Jqgrid control*/
+table.scroll tbody tr {
+        //background: #ffffff;
+        background:url(images/800.800.30.FFFFFF.png);
+		background:rgba(255,255,255,.3);
+        color:#FFF;
+}
+
+table.scroll tbody tr.alt {
+        background:#AFA;
+//      background:rgba(218,252,171,.6);
+        background:url(images/800.800.60.FFFFFF.png);
+		background:rgba(255,255,255,.6);
+        color:#FFF;
+}
+.HeaderLeft {
+        background:url(images/800.800.60.0332a0.png);
+        background:rgba(3,50,160,.6);
+        }
+
+.HeaderRight {
+        background:url(images/800.800.60.0332a0.png);
+        background:rgba(3,50,160,.6);
+        }
+.HeaderButton {
+        background:url(images/800.800.60.0332a0.png);
+        background:rgba(3,50,160,.6);
+}
+.Header th {
+        font-size: 100%; font-weight: bold; text-align: left;
+        padding: 2px;
+        background:url(images/800.800.60.0332a0.png);
+        background:rgba(3,50,160,.6);
+        color: #FFFFFF;
+        width: 100%;
+        white-space: nowrap;
+        }
+
+table.scroll tr.over td{
+        color:#2A0000;
+        background:url(images/800.800.60.FFFFFF.png);
+        background:rgba(255,255,255,6);
+}
+/*new layout using theme roller*/
+.t-border-bottom{border:none;border-top:none;border-left:none;border-right:none;}
+.t-sidemenu{background: #000 font-weight: bold; color: #FFF; outline: none;cursor:pointer; text-align:left; padding-left:20px}
+.t-sidemenu a { color: #FFF; text-decoration: none; outline: none;cursor:pointer;}
+.t-reportsleft{float:left; width:70%}
+.t-reportsright{float:right; width:25%}
+
+/* Display Table Tags*/
+div .table{display:table;}
+div .tr{display:table-row;}
+div .td{display:table-cell;}
+
+	.button {
+	 color: white;
+	 text-decoration: none;
+	 font-size: 20px;
+	 font-family: helvetica, arial;
+	 font-weight: bold;
+	 display: block;
+	 text-align: center;
+	 position: relative;
+
+	 /* BACKGROUND GRADIENTS */
+	 background: #014464;
+	 background: -moz-linear-gradient(top, #8E8E8E, #7A7A7A 50%, #717171 51%, #5C5C5C);
+	 background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.51, #014D71), to(#003E5C)); 
+
+	 /* BORDER RADIUS */
+	 -moz-border-radius: 4px;
+	 -webkit-border-radius: 4px;
+	 border-radius: 4px;
+
+	 border: 1px solid #368DBE;
+	 border-top: 1px solid #c3d6df;
+
+	 /* TEXT SHADOW */
+
+	 text-shadow: 1px 1px 1px black;
+
+	 /* BOX SHADOW */
+	 -moz-box-shadow: 0 1px 3px black;
+	 -webkit-box-shadow: 0 1px 3px black;
+	 box-shadow: 0 1px 3px black;
+	}
+
+	.button:hover {
+		background: #014464;
+	 	background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);
+	 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));
+	}
+
+	
+	/* FONT GLYPH (MOSTLY FOR FUN) */
+	/*
+	.button:before {
+		font-family: EfonRegular;
+		content: 'v';
+		color: #09232F;
+		font-size: 90px;
+		float: left;
+		margin-left: 35px;
+		margin-right: -10px;
+		text-shadow: 0 1px 0 #4190AF;
+	}
+*/
+
+
